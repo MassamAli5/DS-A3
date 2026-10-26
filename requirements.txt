@@ -1,0 +1,10 @@
+# Minimum versions (Python 3.11 or newer). Make your own exact lock later with: python -m pip freeze
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.5
+statsmodels>=0.14
+matplotlib>=3.8
+openpyxl>=3.1
+ipykernel>=6.29
+reportlab>=4.0

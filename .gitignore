@@ -1,0 +1,19 @@
+# Python environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# VS Code local settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Published supplementary workbook: redistribution permission pending (same policy as DS-A2)
+/data/raw/*.xlsx
