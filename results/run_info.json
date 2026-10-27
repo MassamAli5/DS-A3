@@ -1,0 +1,18 @@
+{
+  "python": "3.13.9",
+  "os": "Windows-11-10.0.26300-SP0",
+  "numpy": "2.5.4",
+  "pandas": "3.1.0",
+  "scipy": "1.18.1",
+  "scikit_learn": "1.9.1",
+  "statsmodels": "0.15.0",
+  "matplotlib": "3.11.2",
+  "seed": 42,
+  "data_file": "Supplementary file.xlsx",
+  "data_sha256": "17343594cd7317c950a5ab7fd713c0928859a0a333ac20798d9da6ce645dd18b",
+  "n_train": 23,
+  "n_test": 6,
+  "train_design_rank": 22,
+  "cv": "RepeatedKFold(5 x 10) on training samples; RMSE in ppm",
+  "test_set_scored": "once, after the selection rule was applied"
+}
