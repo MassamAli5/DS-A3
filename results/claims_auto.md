@@ -1,0 +1,12 @@
+- Selected by the pre-declared rule: lasso (CV RMSE 52 ppm versus 181 ppm for the training mean; 71% lower). The model uses 8 of 35 predictors.
+- On the 6 frozen test samples the selected model has RMSE 82 ppm (bootstrap 95% interval 32 to 118); the training mean has 169 ppm.
+- ridge has a lower test RMSE (43 ppm) than the selected lasso, but the intervals overlap heavily with only 6 test samples, and the test set is not used to choose models, so the selection is unchanged.
+- Across layers (leave-one-layer-out) the selected model's RMSE is 49 to 102 ppm; it is worst when LPL is held out.
+- Heteroscedasticity: Breusch-Pagan p = 0.28 and Spearman rho(|residual|, prediction) = 0.14; with 23 samples these tests cannot rule out changing variance.
+- Influence: samples flagged by Cook's D > 4/n: KG-12, KG-25, KG-28.
+- Largest relative error among layer and lithology slices: dolomitic phosphorite (lithology group, n = 5), RMSE about 25% of that slice's mean ∑REY.
+- The test set contains 0 chert-bearing samples, so it says nothing about cherts.
+- Coefficient stability: Be was selected in 99% of 200 bootstrap fits; removing it changed the lasso CV RMSE from 51.9 to 67.4 ppm, and its strongest predictor partner is Na % (r = 0.92).
+- Calibration: the slope of observed on out-of-fold predicted ∑REY is 1.07 (95% interval 0.92 to 1.21), so predictions are not clearly shrunken or inflated. Grouped by observed level, the mean error (observed minus predicted) is -8, -47 and 50 ppm for the lowest, middle and highest third; grouping on the outcome produces such a pattern by itself (regression to the mean), so it is not read as bias.
+- Learning curve: on unseen training samples the lasso RMSE falls from 110 ppm (8 training samples) to 64 ppm (20); ridge from 89 to 67; the naive mean stays near 189. Between 14 and 20 samples lasso fell by 20% and ridge by 11%, so more samples might still help.
+- Complexity gain: the selected lasso beats the simpler OLS-on-k-best by 3.6 ppm in CV RMSE, against a fold-to-fold SD of about 17 ppm, so the two are not clearly different; the large gain over the naive mean is clear.
