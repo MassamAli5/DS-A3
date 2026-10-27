@@ -77,7 +77,7 @@ macOS / Linux: `python -m venv .venv && source .venv/bin/activate && python -m p
    `Get-FileHash "data\raw\Supplementary file.xlsx" -Algorithm SHA256`
 2. Open the project folder in VS Code, open `DS-A3_regression_baseline.ipynb`, select the `.venv` kernel and run all cells from the top.
 3. Compare with the values above. The workbook hash should match, the six test samples should be KG-1, KG-15, KG-21, KG-22, KG-27 and KG-7, the selected model should be lasso (CV RMSE 51.9 ppm, test RMSE 82.1 ppm), and the notebook should print no errors.
-
+4. 4. Optional: run `python src/build_report.py` to regenerate `docs/DS-A3_report.pdf` and `docs/platform_summary.md` from the saved results.
 All randomness uses seed 42. Small numerical differences across library versions are possible. The notebook was executed from a restarted kernel on my machine without errors. Reproduction on a second computer has not been tested.
 
 ## Claim boundary
