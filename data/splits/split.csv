@@ -1,0 +1,30 @@
+sample,layer,lithology,subset
+KG-1,LPL,Phosphorite,test
+KG-2,LPL,Cherty Phosphorite,train
+KG-3,LPL,Dolomatic Phosphorite,train
+KG-4,LPL,Chert,train
+KG-5,LPL,Chert,train
+KG-6,LPL,Dolomatic Phosphorite,train
+KG-7,LPL,Dolomatic Phosphorite,test
+KG-8,LPL,Phosphorite,train
+KG-9,LPL,Phosphorite,train
+KG-10,LPL,Phosphorite,train
+KG-11,MPL,Dolomatic Phosphorite,train
+KG-12,MPL,Dolomatic Phosphorite,train
+KG-13,MPL,Dolomatic Phosphorite,train
+KG-14,MPL,Phosphorite,train
+KG-15,MPL,Phosphorite,test
+KG-16,MPL,Phosphorite,train
+KG-17,MPL,Phosphorite,train
+KG-18,MPL,Phosphorite,train
+KG-19,MPL,Phosphorite,train
+KG-20,MPL,Phosphorite,train
+KG-21,MPL,Phosphorite,test
+KG-22,UPL,Phosphorite,test
+KG-23,UPL,Phosphorite,train
+KG-24,UPL,Phosphorite,train
+KG-25,UPL,Phosphorite,train
+KG-26,UPL,Phosphorite,train
+KG-27,UPL,Phosphorite,test
+KG-28,UPL,Phosphorite,train
+KG-29,UPL,Phosphorite,train

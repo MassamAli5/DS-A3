@@ -1,0 +1,6 @@
+group,columns,reason
+Target,∑REY,the quantity being predicted
+REY elements,"La, Ce, Pr, Nd, Sm, Eu, Gd, Tb, Dy, Y, Ho, Er, Tm, Yb, Lu",the target is exactly their sum: direct leakage
+Derived ratios,"Ce/Ce*, Pr/Pr*, Y/Y*, Eu/Eu*, Y/Ho, La/Yb, La/Sm, Sr/Ca, Rb/Sr",computed from REY (leakage) or from other predictors (redundant)
+Major oxides and LOI,17 columns,recorded for only 14 of 29 samples; using them would halve the data
+Below-detection columns,"Ag, Tl, Hf","contain '<' entries, which are not numbers"

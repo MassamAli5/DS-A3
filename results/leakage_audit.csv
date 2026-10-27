@@ -1,0 +1,6 @@
+check,passed,detail
+∑REY equals the sum of La..Lu + Y in the file,True,max abs difference 5.7e-14 ppm
+Y/Ho equals Y divided by Ho,True,max abs difference 0.0e+00
+"No predictor is a REY, derived ratio, major oxide, censored column or the target",True,35 predictors
+Predictors have no missing values,True,
+"Predictors are strictly positive, so log10 is safe",True,minimum value 0.005
